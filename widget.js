@@ -4,7 +4,8 @@
     a.publish = function () { console.log("connected"); },
     a.initialize = function () {
         if (a.isLoaded()) {
-            if (a._widget = document.getElementById("gtc-widget"), null === a._widget) throw 'Please include a tag with the ID "gtc-widget";
+            if (a._widget = document.getElementById("gtc-widget"), null === a._widget) throw 'Please include a tag with the ID "gtc-widget"';
+            a.createWidget(),
             a.pubnub = PUBNUB.init({
                 subscribe_key: 'sub-c-34f3ca08-7901-11e3-be3a-02ee2ddab7fe'
             }),
