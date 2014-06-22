@@ -1,4 +1,4 @@
-widget
+Widget
 ======
 
-php/js widget for streaming gatecoin's BTCUSD data on any website
+JS widget for streaming gatecoin's BTCUSD data on any website
